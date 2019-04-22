@@ -1,0 +1,19 @@
+/* CSS Reset */
+* {
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.box {
+    background-color: #f4f4f4f4;
+    border: 2px solid #333; 
+    width: 500px; 
+    /* Padding on all sides */
+    padding: 20px; 
+
+    /* Padding shorthand = top right bottom left*/
+    padding: 10px 20px 10px 20px; 
+    /* Margin on all sides */
+    margin: 20px; 
+}

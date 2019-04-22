@@ -1,0 +1,28 @@
+#box-1 {
+    background-color:blanchedalmond;
+    border: 3px solid royalblue; 
+    border-radius: 3px; 
+}
+
+#box-2 {
+    background: #333; 
+    color: white; 
+    border-top: 3px solid royalblue; 
+    margin-top: 10px; 
+    border-radius: 10px;
+}
+
+#box-3 {
+    background-image: url('https://www.publicdomainpictures.net/pictures/260000/velka/stars-background-1527437044z7e.jpg');
+    color: #333; 
+    background-size: cover; 
+     
+}
+
+#box-4 {
+    background-image: url('https://vignette.wikia.nocookie.net/logopedia/images/f/f8/Spotify2015.png');
+    
+    background-repeat: no-repeat; 
+    background-position: top;
+}
+

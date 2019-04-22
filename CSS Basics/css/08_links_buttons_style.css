@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #333;
+    text-decoration: none; 
+}
+
+a:hover, btn: {
+    color: royalblue; 
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white; 
+}
+
+a:active {
+    color:red; 
+}
+
+
+/* Button styling */
+
+.btn {
+    display:inline-block; 
+    background-color: #4c6ca0;
+    border: none; 
+    border-radius: 10px; 
+    font-size: 14px; 
+    padding: 10px 20px; 
+    border: 1px solid #333; 
+    color: white;
+    font-weight: bold; 
+    margin: 0;
+    cursor:pointer;
+}
+
+.btn:hover {
+    transition-duration: 500ms; 
+    background-color: white; 
+    color: #333; 
+}

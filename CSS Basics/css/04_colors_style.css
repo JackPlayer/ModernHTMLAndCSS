@@ -1,0 +1,15 @@
+body {
+    background-color: #0000ff
+}
+/* Named Color */
+h1 { color: #ff4d00; 
+font-weight:bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif}
+
+/* RGB Color */
+h2 {color:rgb(0,255,0);}
+
+/* HEX */
+h3 {
+    color: #f4f4f4
+}
