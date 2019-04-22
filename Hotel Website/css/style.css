@@ -1,0 +1,198 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333; 
+}
+
+h1,h2,h3 {
+    padding-bottom: 20px; 
+}
+
+p {
+    margin: 10px 0; 
+    font-size: 20px
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Helper Styling */
+.primary {
+    color: #f7c08a;
+}
+
+.btn {
+    font-size: 20px; 
+    padding: 15px 20px;
+    border:none; 
+}
+
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333; 
+}
+.btn-dark { 
+    background-color: #333; 
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #f7c08a !important;
+    color: #333 !important; 
+    transition-duration: 500ms; 
+}
+
+.bg-dark {
+    background: #333; 
+    color: #fff; 
+}
+.bg-light {
+    background: #f4f4f4; 
+    color: #333; 
+}
+
+
+.bg-primary {
+    background-color: #f7c08a;
+    color: #333; 
+
+}
+
+.box {
+    width: 33.3%; 
+
+    text-align: center;
+    float: left; 
+    padding: 50px 20px;
+}
+.clr {
+    clear:both; 
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: #333; 
+    padding: 30px; 
+    overflow: auto; 
+}
+
+
+.nav-element {
+    display: inline; 
+}
+#main-navigation {
+    float:right; 
+}
+#navbar li {
+    float: left; 
+    padding: 0 20px; 
+}
+
+#navbar li a{
+    display:block;
+    
+}
+#navbar li a:hover{
+    color: #f7c08a;
+}
+
+#navbar a {
+    color: white; 
+}
+
+#navbar h1 {
+    float:left; 
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 0px; 
+}
+
+/* Banner  */
+#banner-showcase {
+    color:white; 
+    overflow: auto; 
+    text-align: center; 
+    background-image: url('../images/showcase.jpg');
+
+}
+#banner-showcase h2 {
+    font-size: 72px; 
+    margin-top: 300px; 
+    margin-bottom: 50px; 
+}
+
+.container {
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+
+#banner-subtitle {
+    font-size: 20px; 
+}
+
+#banner-button {
+    margin-bottom: 300px; 
+    
+    margin-top: 30px; 
+    
+    border: none;
+}
+
+
+/* History Section */
+
+#history-section {
+    height: 450px; 
+    text-align: center; 
+}
+
+.info-img {
+    width: 50%; 
+    float: left; 
+    background: url('../images/photo-1.jpg') no-repeat; 
+    min-height: 100%; 
+}
+
+#history-section-description {
+    padding: 50px;
+    width: 50%; 
+    float:right;
+    overflow: hidden; 
+}
+
+#history-section-description p {
+    padding-bottom: 30px; 
+}
+
+/* Info Section */
+#info-boxes h3, #info-boxes i {
+    font-size: 40px;
+    padding: 20px; 
+}
+
+
+/* Footer Section */
+#main-footer {
+    text-align:center; 
+    background: #444; 
+    color: white; 
+    padding: 20px; 
+}
