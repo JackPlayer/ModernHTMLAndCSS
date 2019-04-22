@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+li {
+    display:inline; 
+}
+
+li a {
+    padding-right: 20px; 
+}
+
+img {
+    display:block; 
+    margin:auto; 
+}
+
+.box {
+    display: inline-block;
+    background-color: #333;
+    color: white; 
+    padding: 20px;
+    margin-bottom: 20px; 
+    width: 31%;
+    margin: auto;
+    
+}
