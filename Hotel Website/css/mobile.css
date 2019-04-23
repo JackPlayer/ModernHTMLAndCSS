@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+    /* Navbar */
+    #navbar {
+        text-align: center;
+    }
+    #main-navigation {
+        float:none;
+       
+    }
+
+    #navbar li {
+        float:none;
+        border-bottom: 1px dotted #444;
+        width: 100%;  
+    }
+    #navbar h1 {
+        float:none;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    
+
+    /* Banner */
+    #banner-showcase h2 {
+        font-size: 50px;
+        line-height: 4rem;
+    }
+
+    /* History Section */
+    .info-img {
+        display:none; 
+    }
+
+    #history-section-description {
+        float:none;
+        width: 100%; 
+        
+       
+    }
+
+    #history-section {
+        height: 720px; 
+    }
+    #location-box {
+        float:none;
+     
+      
+    }
+    .box {
+        float:none;
+        width: 100%; 
+    }
+
+    #info-boxes h3 {
+        line-height: 2rem;
+    }
+}

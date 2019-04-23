@@ -179,14 +179,14 @@ li {
 /* History Section */
 
 #history-section {
-    height: 450px; 
+    height: 600px; 
     text-align: center; 
 }
 
 .info-img {
     width: 50%; 
     float: left; 
-    background: url('../images/photo-1.jpg') no-repeat; 
+    background: url('../images/photo-1.jpg') no-repeat center center/cover; 
     min-height: 100%; 
 }
 
@@ -310,4 +310,3 @@ min-height: 100%;
     padding: 20px;
  
 }
-
