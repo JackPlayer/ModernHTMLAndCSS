@@ -1,0 +1,23 @@
+#container {
+    display: flex; 
+    justify-content: space-between;
+    background: #555;
+    height: 600px; 
+    align-items: center; 
+
+}
+
+.item {
+    background-color: #f4f4f4;
+    color: #333; 
+    border: 1px solid #ccc; 
+    padding: 1.4rem;
+    text-align:center; 
+    margin: 0.5rem; 
+    flex-basis: 200px; 
+}
+
+.item-2 {
+    /* Align single item vertical */
+    align-self:flex-end; 
+}
