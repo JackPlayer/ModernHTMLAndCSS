@@ -1,0 +1,57 @@
+@media (max-width: 930px) {
+    .items {
+        display:flex;
+        flex-direction: column; 
+    }
+
+    /* CLient Section */
+    
+
+    #client-logos img {
+        height: 60px !important; 
+    
+    }
+    /* Who Section */
+    #who-section {
+        flex-direction: column;
+        height: 750px;
+    }
+    #who-section .m-heading {
+        text-align: center; 
+    }
+
+    /* Contact Section */
+    #contact-section {
+        flex-direction: column;
+    }
+
+    #contact-form-section h2, #contact-form-section p {
+        text-align:center;
+    }
+}
+
+@media(max-width: 650px) {
+    #navbar-container {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom:1.3rem;
+    }
+
+    #navbar li {
+        text-align:center;
+    }
+
+    #navbar li:hover {
+        background-color: #333; 
+    }
+    #navbar li a:hover {
+        color: #85c446;
+    }
+   
+    .l-heading {
+        font-size: 3rem;
+    }
+
+}
