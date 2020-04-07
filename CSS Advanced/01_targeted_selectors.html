@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Direct Child */
+        div > p {
+            background: #ddd;
+        }
+
+        /* Directly after */
+        div + p {
+            background-color: lightsalmon;
+            color: white
+        }
+
+        /* By Attribute */
+        a[target] {
+            background-color: lightslategray;
+            color: white;
+        }
+
+        /* Specific attribute values */
+        input[type="text"] {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+        
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, molestiae.</p>
+
+    <a href="#">Page 1</a>
+    <a href="www.google.ca" target="_blank">Google</a>
+
+    <br>
+    <form action="">
+        <input type="text" placeholder="name">
+        <input type="text" placeholder="email">
+        <input type="button" value="Submit">
+
+    </form>
+</body>
+</html>

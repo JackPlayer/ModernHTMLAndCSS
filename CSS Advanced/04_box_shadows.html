@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadows</title>
+    <style>
+        .container {
+            display: flex;
+
+        }
+        body {
+            font-family: sans-serif;
+        }
+        .box {
+            background-color: coral;
+            padding: 1rem;
+            margin: 1rem;
+            color: #fff;
+
+            box-shadow: 10px 10px teal;
+
+            /* With blur */
+            box-shadow: 10px 10px 5px teal;
+
+            /* Spread radius */
+            box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.3);
+
+            /* Inset radius */
+            box-shadow: inset -3px -3px teal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere a cum provident voluptatibus tenetur accusantium nisi fuga doloremque numquam quidem.</p>
+        </div>
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere a cum provident voluptatibus tenetur accusantium nisi fuga doloremque numquam quidem.</p>
+        </div>
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere a cum provident voluptatibus tenetur accusantium nisi fuga doloremque numquam quidem.</p>
+        </div>
+    </div>
+</body>
+</html>

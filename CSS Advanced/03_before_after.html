@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Pseudo Selectors</title>
+    <style>
+        .is-required:after {
+            content: '*';
+            color: darkred;
+            padding-left: 2px;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: #333;
+            color: white;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+
+        
+        }
+        header:before {
+            content: '';
+            background: url('https://source.unsplash.com/daily') no-repeat center center/cover;
+            opacity: 0.6;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        header h1 {
+            font-size: 4rem;
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- <label for="name" class="is-required">Name</label>
+    <input type="text"> -->
+
+    <header>
+        <h1>Hello World</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, reprehenderit.</p>
+    </header>
+    <section>
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam corrupti excepturi tenetur omnis, rerum accusantium laborum earum harum, eos, blanditiis temporibus exercitationem sunt corporis? Impedit quas dolores corporis ratione reiciendis.</p>
+    </section>
+</body>
+</html>
