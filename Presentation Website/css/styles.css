@@ -1,8 +1,8 @@
 :root {
     --page-1-background-col: steelblue;
     --page-2-background-col: lightcoral;
-    --page-3-background-col: lightblue;
-    --page-4-background-col: lightgreen;
+    --page-3-background-col: #5052B5;
+    --page-4-background-col: #3EB5AB;
 
     --btn-col: #333; 
     --btn-background-col: #f4f4f4;
@@ -64,6 +64,7 @@ header.page p {
 }
 .btn {
     display: inline-block;
+    margin-top: 0.5rem;
     text-decoration: none;
     background-color: var(--btn-background-col);
     color: var(--btn-col);
@@ -73,6 +74,10 @@ header.page p {
     border-radius: 3px;
     transition-duration: 1s;
     transition-property: background-color, color;
+}
+
+.buttons {
+    text-align: center;
 }
 
 .page:nth-child(1) {
