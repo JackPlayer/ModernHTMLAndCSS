@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+nav {
+
+    background-color: #EEE;
+}
+
+nav ul li {
+    display: inline-block; 
+    position: relative;
+    padding: 1rem;
+    list-style: none;
+    color: #333;
+    transition-property: background-color, color;
+    transition-duration: 0.2s
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    height: 30vh;
+    background-color: tomato;
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+
+nav ul li:hover {
+    background-color: tomato;
+    cursor: pointer; 
+    color: white;
+}
+
+/* Hide nested ul by default */ 
+nav ul li ul {
+    display: none;
+}
+
+/* Nested dropdown show */
+
+nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    margin-top: 1rem;
+}
+
+nav ul li ul li {
+    display: block;
+    background: #e7e7e7
+}
+
+nav ul li ul li:hover {
+    background: #e0e0e0;
+}
+
+/* Post Count */
+
+nav ul li ul li span {
+    background-color: coral;
+    color: white;
+    float: right;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav ul li ul li:hover span {
+    background: chocolate;
+}
+
+@media(max-width: 750px) {
+    nav ul li {
+        display: block;
+        
+     
+    }
+
+    nav ul li:hover ul {
+        width: 100%; 
+        position: relative;
+    }
+}
