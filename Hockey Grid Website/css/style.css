@@ -32,7 +32,7 @@ li {
 }
 
 .navbar {
-    position: sticky;
+    position: sticky !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,18 +73,19 @@ li {
 
 .showcase::before {
     content: '';
-    background: url('../images/hockey_4.jpg') no-repeat center center/cover;
+    background: url('../images/hockey_5.jpg') no-repeat center center/cover;
     width: 100%;
     height: inherit; 
     position: absolute;
-    top: 110px;
+    background-size: cover;
+
     left: 0;
     z-index: -1;
    
 }
 
 .container {
-    width: 60%; 
+    width: 80%; 
     margin: 0 auto;
 }
 
@@ -196,6 +197,90 @@ footer h4 span {
     color: var(--secondary-color)
 }
 
+
+/* About Page */
+
+#about-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 2rem;
+}
+
+#about-page div {
+    padding: 2rem;
+}
+#about-page div:nth-child(1) {
+    background-color: white;
+    
+}
+#about-page h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+#about-page .side-bar {
+    background-color: var(--secondary-color);
+    color: white;
+    height: fit-content;
+}
+
+#about-page .side-bar a {
+    width: 100%;
+    background-color: #333;
+    margin-top: 5px;
+}
+
+/* Article Page */
+
+#article-page {
+    display: grid; 
+    grid-template-columns: 5fr 1fr;
+}
+
+#article-page .author-date {
+    display: flex;
+    align-items: center;
+    background-color: #CCC;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+#article-page .article-img {
+    height: 400px;
+    background: url('../images/hockey_3.jpg') no-repeat center center/cover;
+}
+
+#article-page .content > p {
+    margin-top: 1rem;
+}
+#article-page .categories, #article-page .content {
+    background-color: white;
+    
+}
+
+#article-page .categories, #article-page .content, #article-page .club {
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+#article-page .club {
+    background-color: var(--pop-color);
+    color: white;
+}
+
+#article-page .categories li {
+    display: block;
+    margin-top: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+#article-page .club a {
+    background-color: #333;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
 /* Tags */
 .tag {
     text-transform: uppercase;
@@ -271,6 +356,13 @@ h3 {
     margin-top: 1rem;
 }
 
+.active {
+    background-color: var(--secondary-color);
+    color: white !important;
+    padding: 1rem !important;
+    border-radius: 7px;
+}
+
 
 @media (max-width: 768px) {
     .navbar {
@@ -278,7 +370,7 @@ h3 {
     }
 
     .container {
-        width: 80%;
+        width: 90%;
     }
 
     main {
@@ -301,6 +393,19 @@ h3 {
     footer h4 {
         margin-top: 2rem;
         text-align: center;
+    }
+
+    #about-page, #article-page {
+        display: block;
+    }
+
+    #about-page h1 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .navbar .main-nav li {
+        margin-top: 20px
     }
 }
 
