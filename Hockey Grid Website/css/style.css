@@ -1,6 +1,6 @@
 :root {
     --primary-color: #f4f4f4;
-    --secondary-color: darkred;
+    --secondary-color: #c72727;
     --pop-color: orange;
 }
 
@@ -11,34 +11,39 @@
     
 }
 body {
+    line-height: 1.5rem;
     font-family: 'Rubik', sans-serif;
     background-color: var(--primary-color);
 }
-/* Navbar */
+
 li {
     list-style: none;
     display: inline-block;
 }
+/* Navbar */
+
 
 .navbar ul li a {
     color: #333;
     text-decoration: none;
-    padding: 0.3rem;
+    padding: 0.5rem;
     font-size: 1.3rem;
+    display: block;
 }
 
 .navbar .social-nav li a {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
-
 .navbar {
-    position: sticky !important;
+    background-color: white;
+    padding: 1.5rem;
+}
+.navbar .container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    text-align: center;
-    background-color: white;
+    justify-content: space-between;
+
+    
   
 }
 
@@ -216,7 +221,8 @@ footer h4 span {
 #about-page h1 {
     text-transform: uppercase;
     font-size: 2.5rem;
-    padding: 1rem;
+    padding: 1rem 0;
+    line-height: 2rem;
 }
 #about-page .side-bar {
     background-color: var(--secondary-color);
@@ -230,11 +236,15 @@ footer h4 span {
     margin-top: 5px;
 }
 
+#about-page p {
+    margin-top: 7px;
+}
+
 /* Article Page */
 
 #article-page {
     display: grid; 
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 4fr 1fr;
 }
 
 #article-page .author-date {
@@ -351,6 +361,10 @@ h3 {
     margin-top: 5px;
 }
 
+.btn:hover, li a:hover, .btn-alt:hover, input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
 /* Helpers */
 .sm-margin-top {
     margin-top: 1rem;
@@ -359,53 +373,10 @@ h3 {
 .active {
     background-color: var(--secondary-color);
     color: white !important;
-    padding: 1rem !important;
+    padding: 0.5rem;
     border-radius: 7px;
+    margin: 3px;
 }
 
 
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column
-    }
-
-    .container {
-        width: 90%;
-    }
-
-    main {
-        grid-template-areas:
-            'article-1'
-            'article-2'
-            'article-3'
-            'article-4'
-            'article-5'
-            'article-6'
-            'article-7'
-            'article-8'
-            'article-9'
-    }
-
-    footer .container {
-        display: block;
-    }
-
-    footer h4 {
-        margin-top: 2rem;
-        text-align: center;
-    }
-
-    #about-page, #article-page {
-        display: block;
-    }
-
-    #about-page h1 {
-        font-size: 1.5rem;
-        padding: 0;
-    }
-
-    .navbar .main-nav li {
-        margin-top: 20px
-    }
-}
 
