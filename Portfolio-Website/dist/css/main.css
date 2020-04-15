@@ -1,0 +1,37 @@
+header {
+  height: 100vh;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center; }
+    header nav ul {
+      display: flex; }
+      header nav ul a {
+        padding: 0.7rem 1.5rem;
+        text-transform: uppercase; }
+  header .showcase {
+    text-align: center;
+    margin: auto;
+    color: #f4f4f4; }
+    header .showcase h1 {
+      font-size: 4rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style: none; }
+
+.container {
+  width: 80%; }
+
+body {
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif; }

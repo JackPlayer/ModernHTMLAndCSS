@@ -1,0 +1,21 @@
+header {
+  height: 100vh;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center; }
+    header nav ul {
+      display: flex; }
+      header nav ul a {
+        padding: 0.7rem 1.5rem;
+        text-transform: uppercase; }
+  header .showcase {
+    text-align: center;
+    margin: auto; }
+    header .showcase h1 {
+      font-size: 3rem; }

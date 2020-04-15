@@ -1,0 +1,39 @@
+// HEADER STYLING
+
+header {
+    height: 100vh;
+    background: url('../img/showcase.jpg') no-repeat center center/cover; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        align-items: center;
+        ul {
+            display: flex;
+            
+            a {
+                padding: 0.7rem 1.5rem;
+                text-transform: uppercase;
+
+            }
+            
+        }
+        
+    }
+    .showcase {
+        text-align: center;
+        margin: auto;
+        color: $light-color;
+        
+
+        h1 {
+            font-size: 4rem;
+        }
+        
+    }
+}
