@@ -6,13 +6,15 @@ header {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    
-
     nav {
         display: flex;
         justify-content: space-between;
         width: 80%;
         align-items: center;
+        img {
+            width: 100px;
+            height: 100px;
+        }
         ul {
             display: flex;
             
@@ -30,9 +32,8 @@ header {
         margin: auto;
         color: $light-color;
         
-
         h1 {
-            font-size: 4rem;
+            font-size: 3rem;
         }
         
     }

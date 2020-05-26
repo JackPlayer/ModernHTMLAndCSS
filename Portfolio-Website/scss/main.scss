@@ -1,5 +1,7 @@
 @import "variables";
 @import "header";
+@import "footer";
+@import "utilities";
 
 // RESET & STANDARD STYLING
 * {
@@ -12,12 +14,154 @@ li {
     list-style: none;
 }
 
+li a {
+    color: $light-color;
+    text-decoration: none;
+}
+
 .container {
     width: $container-size-lg;
 }
 
 body {
-    background-color: $dark-color;
+    background-color: $light-color;
+    color: $dark-color;
     font-family: $font-stack;
 }
 
+hr {
+    width: 5%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: $main-color;
+}
+
+
+
+// HEADINGS 
+
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: $padding-sm;
+    font-weight: 400;
+}
+
+h3 {
+    text-transform: uppercase;
+    padding: $padding-sm;
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.number {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: $padding-sm;
+}
+
+// SECTIONS
+#specialization, #creative {
+    text-align: center;
+    margin: 0 auto;
+    padding: $padding-lg;
+    > div {
+        display: flex;
+        padding: $padding-med;
+        div {
+            padding: $padding-sm;
+        }
+    }
+
+    i.fas {
+        font-size: 2rem;
+        color: $main-color;
+    }
+} 
+
+#numbers {
+    display: flex;
+    justify-content: space-between;
+
+    i.fas {
+        font-size: 2rem;
+        padding: $padding-sm;
+    }
+    > div {
+        text-align: center;
+        width: 100%;
+        padding: $padding-lg;
+    }
+
+    > div:nth-child(even) {
+        background-color: #AAA;
+    }
+
+    > div:nth-child(odd) {
+        background-color: #DDD;
+    }
+}
+
+#creative {
+    .process {
+        position: relative;
+        p {
+            color: $light-color;
+            padding: 0.5rem;
+            background-color: $main-color;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            vertical-align: middle;
+            position: absolute;
+            right: 5%;
+            
+           
+       
+        }
+
+        i {
+            font-size: 2rem;
+            background: $dark-color;
+            color: $light-color;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+    
+     
+           
+            padding: 30px; 
+        }
+    }
+}
+
+@media(max-width: 1000px) {
+    #specialization > div, #creative > div, #numbers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .process > p {
+        display: none;
+    }
+}
+
+@media(max-width: 700px) {
+    nav.container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .showcase >h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 100%; 
+    }
+}

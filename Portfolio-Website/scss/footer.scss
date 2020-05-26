@@ -1,0 +1,11 @@
+footer {
+    background-color: $dark-color;
+    color: $light-color;
+    padding: $padding-med;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    .social-list {
+        display: flex;
+    }
+}
