@@ -24,6 +24,10 @@ header {
     header .showcase h1 {
       font-size: 3rem; }
 
+header.sm-header {
+  height: 10vh;
+  border-bottom: 2px solid #ffbc00; }
+
 footer {
   background-color: #333;
   color: #f4f4f4;
@@ -97,18 +101,30 @@ h4 {
   font-weight: bold;
   padding: 0.5rem; }
 
-#specialization, #creative {
+#specialization, #creative, #about {
   text-align: center;
   margin: 0 auto;
   padding: 3rem; }
-  #specialization > div, #creative > div {
+  #specialization > div, #creative > div, #about > div {
     display: flex;
     padding: 1.5rem; }
-    #specialization > div div, #creative > div div {
+    #specialization > div div, #creative > div div, #about > div div {
       padding: 0.5rem; }
-  #specialization i.fas, #creative i.fas {
+  #specialization i.fas, #creative i.fas, #about i.fas {
     font-size: 2rem;
     color: #ffbc00; }
+
+#about #intro {
+  display: flex; }
+  #about #intro .img {
+    flex: 1;
+    height: 100%;
+    background-color: #BBB; }
+  #about #intro #description {
+    flex: 2;
+    padding: 2rem;
+    border-left: 2px solid #ffbc00;
+    background-color: #DDD; }
 
 #numbers {
   display: flex;
