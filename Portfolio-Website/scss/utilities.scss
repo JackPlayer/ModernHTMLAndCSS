@@ -2,6 +2,7 @@ a.active {
     border-bottom: 2px solid $main-color;
 }
 
+// Buttons
 .btn-light {
     padding: 1rem ;
     background-color: $light-color;
@@ -14,6 +15,23 @@ a.active {
     transition-duration: 500ms;
     background-color: $main-color;
     transform: scale(1.1);
+}
+
+.btn-dark {
+    background-color: $dark-color; 
+    color: #EEE;
+    border: none; 
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: $main-color;
+        transition-duration: 500ms;
+        
+    }
 }
 
 .bg-dark {
