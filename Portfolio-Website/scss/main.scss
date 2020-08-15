@@ -178,12 +178,30 @@ h4 {
 // LOGOS SECTION
 
 #logos {
-    text-align: center;
-    margin: 0 auto;
+
     padding: $padding-lg;
-    
+    background-color: #DDD;
+    .container {
+        text-align: center;
+        margin: 0 auto;
+    }
     img {
         padding: 3rem;
+    }
+}
+
+// TESTIMONIALS SECTION
+#testimonials {
+    text-align: center;
+    margin: 0 auto;
+    padding: $padding-med;
+    
+    #testimonial-list {
+        display: flex;
+        margin-top: 1rem;
+        .testimonial {
+            padding: 1rem;
+        }
     }
 }
 

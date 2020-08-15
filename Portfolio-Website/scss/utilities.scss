@@ -27,7 +27,6 @@ a.active {
 }
 
 // Progress Bars
-
 .progress {
     background-color: #fff;
     overflow: hidden;
@@ -40,4 +39,26 @@ a.active {
         background-color: $main-color;
         text-align: center;
     }
+}
+
+// Testimonal Box
+.testimonial {
+
+    .testimonial-text {
+        padding: 1rem;
+        border: 1px solid #AAA;
+        background-color: #EEE;
+        border-radius: 5px;
+    }
+
+    .testimonial-identity {
+        display: flex;
+        align-items: center;
+        .testimonial-img {
+            border-radius: 100%;
+            margin-top: 0.3rem;
+            margin-right: 1rem;
+        }
+    }
+    
 }
