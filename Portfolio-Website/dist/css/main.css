@@ -191,6 +191,13 @@ h4 {
   #progress h2 {
     text-align: center; }
 
+#logos {
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem; }
+  #logos img {
+    padding: 3rem; }
+
 @media (max-width: 1000px) {
   #specialization > div, #creative > div, #numbers {
     display: flex;

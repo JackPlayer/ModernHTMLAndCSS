@@ -162,7 +162,7 @@ h4 {
     }
 }
 
-
+// TECHNICAL SKILLS SECTION
 #progress {
     color: white;
     margin: 0 auto;
@@ -172,6 +172,18 @@ h4 {
     }
     h2 {
         text-align: center;
+    }
+}
+
+// LOGOS SECTION
+
+#logos {
+    text-align: center;
+    margin: 0 auto;
+    padding: $padding-lg;
+    
+    img {
+        padding: 3rem;
     }
 }
 
