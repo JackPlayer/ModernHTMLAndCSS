@@ -89,17 +89,19 @@ h4 {
     #intro {
         display: flex; 
         
-        
-        .img {
+     
+        img {
+            padding-right: 0.5rem;
+            max-width: 30%; 
+            height: auto;
             flex: 1;
-            height: 100%;
-            background-color: #BBB;
         }
         #description {
-            flex: 2;
+         
             padding: 2rem;
             border-left: 2px solid $main-color;
             background-color: #DDD;
+            flex: 3;
         }
     }
 }

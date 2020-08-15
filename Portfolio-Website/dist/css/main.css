@@ -116,15 +116,16 @@ h4 {
 
 #about #intro {
   display: flex; }
-  #about #intro .img {
-    flex: 1;
-    height: 100%;
-    background-color: #BBB; }
+  #about #intro img {
+    padding-right: 0.5rem;
+    max-width: 30%;
+    height: auto;
+    flex: 1; }
   #about #intro #description {
-    flex: 2;
     padding: 2rem;
     border-left: 2px solid #ffbc00;
-    background-color: #DDD; }
+    background-color: #DDD;
+    flex: 3; }
 
 #numbers {
   display: flex;
