@@ -49,11 +49,30 @@ a.active {
   display: inline-block;
   margin-top: 1rem; }
 
+.btn-light:hover {
+  transition-duration: 500ms;
+  background-color: #ffbc00;
+  transform: scale(1.1); }
+
+.bg-dark {
+  background-color: #333; }
+
 .social-icon {
   border: 1px solid #f4f4f4;
   padding: 0.5rem;
   border-radius: 20px;
   margin: 10px; }
+
+.progress {
+  background-color: #fff;
+  overflow: hidden;
+  height: 20px;
+  border-radius: 5px;
+  margin-bottom: 1rem; }
+  .progress div {
+    height: 100%;
+    background-color: #ffbc00;
+    text-align: center; }
 
 * {
   margin: 0;
@@ -162,6 +181,15 @@ h4 {
     height: 100px;
     border-radius: 50%;
     padding: 30px; }
+
+#progress {
+  color: white;
+  margin: 0 auto;
+  padding: 1.5rem; }
+  #progress .container {
+    margin: 0 auto; }
+  #progress h2 {
+    text-align: center; }
 
 @media (max-width: 1000px) {
   #specialization > div, #creative > div, #numbers {

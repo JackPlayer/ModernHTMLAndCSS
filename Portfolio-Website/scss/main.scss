@@ -162,6 +162,19 @@ h4 {
     }
 }
 
+
+#progress {
+    color: white;
+    margin: 0 auto;
+    padding: $padding-med;
+    .container {
+        margin: 0 auto;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
 @media(max-width: 1000px) {
     #specialization > div, #creative > div, #numbers {
         display: flex;

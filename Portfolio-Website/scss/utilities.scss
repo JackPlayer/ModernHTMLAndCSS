@@ -10,10 +10,34 @@ a.active {
     display: inline-block;
     margin-top: 1rem;
 }
+.btn-light:hover {
+    transition-duration: 500ms;
+    background-color: $main-color;
+    transform: scale(1.1);
+}
 
+.bg-dark {
+    background-color: $dark-color; 
+}
 .social-icon {
     border: 1px solid $light-color;
     padding: $padding-sm;
     border-radius: 20px;
     margin: 10px;
+}
+
+// Progress Bars
+
+.progress {
+    background-color: #fff;
+    overflow: hidden;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    div {
+        height: 100%;
+        background-color: $main-color;
+        text-align: center;
+    }
 }
