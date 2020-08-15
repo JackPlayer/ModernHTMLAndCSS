@@ -224,6 +224,11 @@ h4 {
     #testimonials #testimonial-list .testimonial {
       padding: 1rem; }
 
+#work {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.5rem; }
+
 @media (max-width: 1000px) {
   #specialization > div, #creative > div, #numbers {
     display: flex;

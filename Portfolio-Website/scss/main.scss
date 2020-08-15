@@ -205,6 +205,13 @@ h4 {
     }
 }
 
+// WORK SECTION 
+#work {
+    margin: 0 auto;
+    text-align: center;
+    padding: $padding-med;
+}
+
 @media(max-width: 1000px) {
     #specialization > div, #creative > div, #numbers {
         display: flex;
