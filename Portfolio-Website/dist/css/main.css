@@ -377,3 +377,58 @@ h4 {
     font-size: 2rem; }
   .container {
     width: 100%; } }
+
+@media (max-width: 800px) {
+  header.sm-header {
+    height: 10rem;
+    width: 100%; }
+    header.sm-header .container {
+      display: flex;
+      flex-direction: column; }
+  #about #intro {
+    display: flex;
+    flex-direction: column; }
+    #about #intro img {
+      display: none; }
+  #testimonials #testimonial-list {
+    display: flex;
+    flex-direction: column; }
+  .container {
+    width: 100%; }
+  header .container {
+    width: 80%; }
+  #work #work-grid {
+    display: flex;
+    flex-direction: column; }
+  footer {
+    padding: 4rem; } }
+
+@media (max-width: 420px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer p {
+      margin-bottom: 1.5rem; }
+  #creative > div {
+    padding: 0; }
+  #specialization > div {
+    padding: 0;
+    margin-top: 1rem; }
+  #awards {
+    display: flex;
+    flex-direction: column; }
+  hr {
+    width: 50%; }
+  .contact-info-list {
+    display: flex;
+    flex-direction: column; }
+    .contact-info-list > div {
+      padding: 2.5rem !important; }
+  #next-project {
+    padding: 3rem; }
+    #next-project h1 {
+      font-size: 2rem; }
+  #contact-form form .text-fields {
+    display: flex;
+    flex-direction: column; } }
